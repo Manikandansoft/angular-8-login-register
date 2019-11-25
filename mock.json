@@ -1,0 +1,254 @@
+{
+  "vehicles": [
+    {
+      "vehicleName": "New express",
+      "vehicleType": "lorry",
+      "vehicleNumber": "KA43 8909",
+      "amount": "54545",
+      "availFrom": "salem",
+      "availTo": "bangalore",
+      "id": 1
+    },
+    {
+      "vehicleName": "KPN",
+      "vehicleType": "407",
+      "vehicleNumber": "TN 51 8787",
+      "amount": "5000",
+      "availFrom": "bangalore",
+      "availTo": "salem",
+      "id": 2
+    },
+    {
+      "vehicleName": "Jai Transport",
+      "vehicleType": "407",
+      "vehicleNumber": "KA44 4989",
+      "amount": "6000",
+      "availFrom": "coimbatore",
+      "availTo": "salem",
+      "id": 3
+    }
+  ],
+  "vehicleTypes": [
+    {
+      "id": 1,
+      "type": "lorry",
+      "display": "Lorry"
+    },
+    {
+      "id": 2,
+      "type": "407",
+      "display": "Tata 407"
+    },
+    {
+      "id": 1,
+      "type": "eicher",
+      "display": "Eicher"
+    },
+    {
+      "id": 1,
+      "type": "Tata Ace",
+      "display": "Tata Ace"
+    },
+    {
+      "id": 1,
+      "type": "pick up",
+      "display": "Pick Up"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "place": "bangalore",
+      "display": "Bangalore"
+    },
+    {
+      "id": 2,
+      "place": "salem",
+      "display": "Salem"
+    },
+    {
+      "id": 3,
+      "place": "hosur",
+      "display": "Hosur"
+    },
+    {
+      "id": 4,
+      "place": "coimbatore",
+      "display": "Coimbatore"
+    }
+  ],
+  "booked": [
+    {
+      "vehicleName": "New express",
+      "bookingDate": "11/13/19",
+      "vehicleNumber": "KA43 8909",
+      "bookedFrom": "salem",
+      "availTo": "bangalore",
+      "amount": "54545",
+      "id": 1
+    },
+    {
+      "vehicleName": "KPN",
+      "bookingDate": "11/13/19",
+      "vehicleNumber": "TN 51 8787",
+      "bookedFrom": "bangalore",
+      "availTo": "salem",
+      "amount": "5000",
+      "id": 2
+    },
+    {
+      "vehicleName": "KPN",
+      "bookingDate": "11/18/19",
+      "vehicleNumber": "TN 51 8787",
+      "bookedFrom": "bangalore",
+      "availTo": "salem",
+      "amount": "5000",
+      "id": 3
+    }
+  ],
+  "students": [
+    {
+      "id": 2,
+      "studentName": "Manikandan",
+      "email": "test@test.com",
+      "class": "MCA",
+      "number": "5353",
+      "location": "cbe"
+    },
+    {
+      "id": 1,
+      "studentName": "test",
+      "email": "test@test.com",
+      "class": "MCA",
+      "number": "5353",
+      "location": "cbe"
+    }
+  ],
+  "dataTree": [
+    {
+      "data": {
+        "name": "Documents",
+        "size": "75kb",
+        "type": "Folder"
+      },
+      "children": [
+        {
+          "data": {
+            "name": "Work",
+            "size": "55kb",
+            "type": "Folder"
+          },
+          "children": [
+            {
+              "data": {
+                "name": "Expenses.doc",
+                "size": "30kb",
+                "type": "Document"
+              }
+            },
+            {
+              "data": {
+                "name": "Resume.doc",
+                "size": "25kb",
+                "type": "Resume"
+              }
+            }
+          ]
+        },
+        {
+          "data": {
+            "name": "Home",
+            "size": "20kb",
+            "type": "Folder"
+          },
+          "children": [
+            {
+              "data": {
+                "name": "Invoices",
+                "size": "20kb",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "data": {
+        "name": "Pictures",
+        "size": "150kb",
+        "type": "Folder"
+      },
+      "children": [
+        {
+          "data": {
+            "name": "barcelona.jpg",
+            "size": "90kb",
+            "type": "Picture"
+          }
+        },
+        {
+          "data": {
+            "name": "primeui.png",
+            "size": "30kb",
+            "type": "Picture"
+          }
+        },
+        {
+          "data": {
+            "name": "optimus.jpg",
+            "size": "30kb",
+            "type": "Picture"
+          }
+        }
+      ]
+    }
+  ],
+  "accordionData": [
+    {
+      "name": "Documents",
+      "description": "The story begins as Don Vito Corleone, the head of a New York Mafia family, overseeshis daughters wedding. His beloved son ichael has just come home from the war, but does not intend to become part of his fathers business. T hrough Michaels life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family."
+    },
+    {
+      "name": "Images",
+      "description": "The story begins as Don Vito Corleone, the head of a New York Mafia family, overseeshis daughters wedding. His beloved son ichael has just come home from the war, but does not intend to become part of his fathers business. T hrough Michaels life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family."
+    },
+    {
+      "name": "Pdf",
+      "description": "The story begins as Don Vito Corleone, the head of a New York Mafia family, overseeshis daughters wedding. His beloved son ichael has just come home from the war, but does not intend to become part of his fathers business. T hrough Michaels life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family."
+    }
+  ],
+  "menuItems": [
+    {
+      "label": "Stats",
+      "icon": "fa fa-fw fa-bar-chart"
+    },
+    {
+      "label": "Calendar",
+      "icon": "fa fa-fw fa-calendar"
+    },
+    {
+      "label": "Documentation",
+      "icon": "fa fa-fw fa-book"
+    },
+    {
+      "label": "Support",
+      "icon": "fa fa-fw fa-support"
+    },
+    {
+      "label": "Social",
+      "icon": "fa fa-fw fa-twitter"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Mani",
+      "email": "mani@test.com",
+      "username": "mani",
+      "password": "manihcl",
+      "acceptTerms": true,
+      "id": 1
+    }
+  ]
+ 
+}
