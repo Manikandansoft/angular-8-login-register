@@ -1,0 +1,32 @@
+<p-table [value]="gridData" rows="2" [pageLinks]="pageLinks" [paginator]="pagination" [totalRecords]="totalRecords">
+    <ng-template pTemplate="header">
+        <tr>
+            <th *ngFor="let col of gridColumnDefinition" [pSortableColumn]="sorting ? col.rowName: ''">
+                <span>
+                    {{col.colName}}
+                    <p-sortIcon [field]="col.rowName" *ngIf="sorting && col.colName !='Action'"></p-sortIcon>
+                </span>
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-value>
+        <tr>
+            <td *ngFor="let row of gridColumnDefinition">
+                <span *ngIf="row.colName !='Action'">{{value[row.rowName]}}</span>
+                <span *ngIf="row.colName =='Action'">
+                    <span *ngFor="let action of row.action">
+                        <button  class="btn btn-primary {{action.btnClass}}"
+                            (click)="clickAction(action, value)">{{action.btnName}}</button>
+                    </span>
+                </span>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage" let-columns>
+        <tr [attr.colspan]="columns?.length">
+            <td >
+                No records found
+            </td>
+        </tr>
+    </ng-template>
+</p-table>

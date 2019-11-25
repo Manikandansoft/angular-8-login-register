@@ -1,0 +1,14 @@
+.home-container {
+    min-height: 80vh;
+}
+.logout{
+    background: #0761c1;
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    height: 30px;
+}
+.btn-contianer{
+    text-align: right;
+    width: 100%;
+}

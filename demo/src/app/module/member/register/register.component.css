@@ -1,0 +1,25 @@
+.error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #fff;
+}
+.form-control:invalid {
+    border-color: #dc3545;
+}
+
+.register-container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.form-check-label{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 80%;
+}
+.form-group .btn{
+    margin-left: 5px;
+}

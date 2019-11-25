@@ -1,0 +1,10 @@
+<div class="row home-container">
+    <div class="btn-contianer">
+        <button class="btn btn-primary logout" type="submit" (click)="logout()">Logout</button>
+    </div>
+    <app-grid [gridData]="userList" [gridColumnDefinition]="gridColumns" (getAction)="getAction($event)"
+        [sorting]="sorting" [pageLinks]="pageLinks" [pagination]="pagination" *ngIf="userList">
+    </app-grid>
+</div>
+<app-alert [alertObj]="api.alertConfig" *ngIf="api.alertConfig?.modalShow"></app-alert>
+<app-spinner [spinner]="spinner"></app-spinner>

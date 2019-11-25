@@ -1,0 +1,10 @@
+.logout{
+    background: #0761c1;
+    border: none;
+    color: #fff;
+}
+.header-bg{
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    color:#fff;
+}
